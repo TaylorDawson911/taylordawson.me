@@ -1,0 +1,23 @@
+  	$("#typed").typed({
+  		strings: [    "[ Software Engineer ]", 
+    "[ Penetration Tester ]", 
+    "[ Red Team Enthusiast ]",
+    "[ Ethical Hacker ]",
+    "[ Python Expert ]", 
+    "[ Front-End Web Developer ]",
+    "[ UX Designer ]",
+    "[ AHK Developer ]",
+    "[ .net MVC Developer ]",
+    "[ Hello, World! ]",
+    "[ 17 Years of Age!]",
+    "[ Thanks For Looking! ]",
+    "[ console.log('Hello!') ]",
+    "[ Game Hack Developer ]",
+  		typeSpeed: 100,
+  		startDelay: 0,
+  		backSpeed: 60,
+  		backDelay: 2000,
+  		loop: true,
+  		cursorChar: "|",
+  		contentType: 'html'
+  	});

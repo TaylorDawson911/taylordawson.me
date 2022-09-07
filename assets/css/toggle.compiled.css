@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, Helvetica, Sans-Serif;
+}
+
+toggle {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  padding: 20px 0;
+}
+
+toggle.show {
+  background: #f44336;
+  display: inline-block;
+  padding: 20px;
+  cursor: pointer;
+  margin: 0 5px 10px 0;
+}
+
+toggle.show:hover, a.show-active {
+  color: #f44336;
+}
+
+.section {
+  padding: 20px;
+}
